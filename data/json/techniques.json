@@ -803,6 +803,7 @@
         "id" : "tec_silat_hamstring",
         "name" : "hamstring",
         "min_melee" : 2,
+        "unarmed_allowed" : true,
         "crit_tec" : true,
         "down_dur" : 3,
         "messages" : [
@@ -814,6 +815,7 @@
         "id" : "tec_silat_precise",
         "name" : "Vicious Precision",
         "min_melee" : 4,
+        "unarmed_allowed" : true,
         "crit_tec" : true,
         "mult_bonuses" : [
             ["damage", "bash", 1.5],
@@ -829,6 +831,7 @@
         "id" : "tec_silat_brutal",
         "name" : "Silat Brutality",
         "min_melee" : 3,
+        "unarmed_allowed" : true,
         "crit_tec" : true,
         "stun_dur" : 1,
         "knockback_dist" : 1,
@@ -841,6 +844,7 @@
         "id" : "tec_silat_dirty",
         "name" : "Dirty Hit",
         "min_melee" : 1,
+        "unarmed_allowed" : true,
         "crit_tec" : true,
         "stun_dur" : 2,
         "req_buffs" : [
