@@ -43,7 +43,7 @@
 "name" : "Elemental resistance",    // In-game name displayed
 "description" : "+Strength bash armor, +Dexterity acid armor, +Intelligence electricity armor, +Perception fire armor.",    // In-game description
 "unarmed_allowed" : true,           // Can this buff be applied to an unarmed character
-"unarmed_allowed" : false,          // Can this buff be applied to an armed character
+"melee_allowed" : false,            // Can this buff be applied to an armed character
 "strictly_unarmed" : true,          // Does this buff require the character to be actually unarmed. If false, allows unarmed weapons (brass knuckles, punch daggers)
 "max_stacks" : 8,                   // Maximum number of stacks on the buff. Buff bonuses are multiplied by current buff intensity
 "flat_bonuses" : [                  // Flat bonuses
