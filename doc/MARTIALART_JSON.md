@@ -26,7 +26,7 @@
 "id" : "tec_debug_arpen",   // Unique ID. Must be one continuous word
 "name" : "phasing strike",  // In-game name displayed
 "unarmed_allowed" : true,   // Can an unarmed character use this technique
-"strict_unarmed" : true,    // Does this buff require the character to be actually unarmed or does it allow unarmed weapons
+"strictly_unarmed" : true,    // Does this buff require the character to be actually unarmed or does it allow unarmed weapons
 "melee_allowed" : true,     // Can an armed character use this technique
 "min_melee" : 3,            // Minimum skill and its level required to use this technique. Can be any skill.
 "crit_tec" : true,          // Can this technique be used on crit (and only on crit)?
