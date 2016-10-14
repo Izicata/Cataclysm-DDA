@@ -38,6 +38,7 @@
         "type" : "technique",
         "id" : "DEF_DISARM",
         "name" : "disarm",
+        "strictly_unarmed" : true,
         "min_unarmed" : 0,
         "melee_allowed" : true,
         "disarms" : true
@@ -45,6 +46,7 @@
         "type" : "technique",
         "id" : "GRAB",
         "name" : "", "comment": "not imeplemented -> empty name",
+        "strictly_unarmed" : true,
         "messages" : [
             "You grab %s",
             "<npcname> grabs %s"
@@ -325,6 +327,7 @@
         "name" : "throw",
         "min_unarmed" : 2,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "down_dur" : 1,
         "knockback_dist" : 1,
         "knockback_spread" : 1,
@@ -338,6 +341,7 @@
         "name" : "dodge throw",
         "min_unarmed" : 6,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "dodge_counter": true,
         "down_dur" : 1,
         "knockback_dist" : 1,
@@ -366,6 +370,7 @@
         "name" : "disarm",
         "min_unarmed" : 3,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "disarms" : true,
         "messages" : [
             "You disarm %s",
@@ -377,6 +382,7 @@
         "name" : "throw",
         "min_unarmed" : 3,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "down_dur" : 1,
         "knockback_dist" : 1,
         "knockback_spread" : 1,
@@ -390,6 +396,7 @@
         "name" : "grab",
         "min_unarmed" : 2,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "down_dur" : 2,
         "messages" : [
             "You grab %s",
@@ -401,6 +408,7 @@
         "name" : "disarm",
         "min_unarmed" : 3,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "disarms" : true,
         "messages" : [
             "You disarm %s",
@@ -511,6 +519,7 @@
         "name" : "disarm",
         "min_unarmed" : 3,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "disarms" : true,
         "messages" : [
             "You disarm %s",
@@ -522,6 +531,7 @@
         "name" : "grab",
         "min_unarmed" : 4,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "down_dur" : 1,
         "messages" : [
             "You grab %s",
@@ -962,6 +972,7 @@
         "name" : "Toad's Tongue",
         "min_unarmed" : 4,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "mult_bonuses" : [["movecost", 0.5]],
         "down_dur" : 1,
         "messages" : [
@@ -1042,6 +1053,7 @@
         "name" : "Tiger Takedown",
         "min_unarmed" : 4,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "down_dur" : 1,
         "messages" : [
             "You grab and ground %s!",
@@ -1097,6 +1109,7 @@
         "name" : "Dragon Snatch",
         "min_unarmed" : 4,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "stun_dur" : 2,
         "bash_mult" : 1.2,
         "messages" : [
@@ -1109,6 +1122,7 @@
         "name" : "Dragon's Vortex",
         "min_unarmed" : 4,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "block_counter" : true,
         "dodge_counter" : true,
         "mult_bonuses" : [["movecost", 0.0]],
@@ -1169,9 +1183,10 @@
     },{
         "type" : "technique",
         "id" : "tec_crane_precise",
-        "name" : "Crane Strike",
+        "name" : "Crane Beak Strike",
         "min_unarmed" : 4,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "crit_tec" : true,
         "messages" : [
             "You hand-peck %s",
@@ -1211,6 +1226,7 @@
         "name" : "Hit Them Back",
         "min_unarmed" : 5,
         "unarmed_allowed" : true,
+        "strictly_unarmed" : true,
         "block_counter": true,
         "mult_bonuses" : [["movecost", 0.0]],
         "flat_bonuses" : [["movecost", 20]],
